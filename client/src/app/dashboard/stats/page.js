@@ -62,7 +62,7 @@ const StatsPage = () => {
       setError('No authentication token found');
       setLoading(false);
     }
-  }, [timeRange]);
+  }, [loadStatsData]);
 
   const loadStatsData = async (token) => {
     try {
