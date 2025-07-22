@@ -3,7 +3,6 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { useParams } from 'next/navigation';
-import axios from 'axios';
 
 const API_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
