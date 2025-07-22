@@ -13,10 +13,8 @@ const EditClientPage = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        if (id) {
             fetchClient();
-        }
-    }, [id]);
+    }, [fetchClient]);
 
     const fetchClient = async () => {
         try {
