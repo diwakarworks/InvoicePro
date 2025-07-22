@@ -39,7 +39,7 @@ const AdminProfile = () => {
 
     useEffect(() => {
         fetchAdminUsers();
-    }, []);
+    }, [fetchAdminUsers]);
 
     const handleEdit = () => {
         setEditing(true);
