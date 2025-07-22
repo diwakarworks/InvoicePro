@@ -80,7 +80,7 @@ const InvoiceDetailPage = () => {
         <div className="text-center">
           <FileText className="w-16 h-16 text-gray-400 mx-auto mb-4" />
           <h2 className="text-2xl font-semibold text-gray-900 mb-2">Invoice not found</h2>
-          <p className="text-gray-600">The invoice you're looking for doesn't exist or has been removed.</p>
+          <p className="text-gray-600">The invoice you are looking  does not exist or has been removed</p>
         </div>
       </div>
     );
