@@ -1,64 +1,25 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
-import { getAuth0Client } from '@/lib/auth0';
-
-
-export const dynamic = 'force-dynamic';
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { handleRedirectCallback } from "@auth0/auth0-react";
 
 export default function CallbackPage() {
   const router = useRouter();
-  const [error, setError] = useState(null);
 
   useEffect(() => {
-    async function handleCallback() {
+    const handleCallback = async () => {
       try {
-        const auth0 = await getAuth0Client();
-
-        // Handle the callback from Auth0
-        await auth0.handleRedirectCallback();
-
-        // Get user info and token
-        const user = await auth0.getUser();
-        const token = await auth0.getTokenSilently({
-          audience: process.env.NEXT_PUBLIC_AUTH0_AUDIENCE,
-          scope: 'read:clients read:invoices',
-        });
-
-        
-        localStorage.setItem('token', token); 
-
-        console.log('User:', user);
-        console.log('Token:', token);
-
-        document.cookie = `auth_token=${token}; path=/; secure; samesite=strict`;
-
-
-        router.push('/dashboard');
-
+        await handleRedirectCallback();
+        router.push("/dashboard"); // or wherever you want after login
       } catch (error) {
-        console.error('Auth0 callback error:', error);
-        setError('Authentication failed. Please try again.');
-
-        // Redirect back to login after a delay
-        setTimeout(() => {
-          router.push('/auth/login');
-        }, 3000);
+        console.error("Auth0 callback error:", error);
+        router.push("/error");
       }
-    }
+    };
 
     handleCallback();
-  }, [router]);
+  }, []);
 
-  if (error) {
-    return (
-      <div>
-        <p style={{ color: 'red' }}>{error}</p>
-        <p>Redirecting to login...</p>
-      </div>
-    );
-  }
-
-  return <p>Processing login...</p>;
+  return <div>Processing login...</div>;
 }
