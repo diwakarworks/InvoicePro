@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 import { 
   LineChart, 
@@ -54,17 +54,8 @@ const StatsPage = () => {
   // Colors for charts
   const COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#06B6D4'];
 
-  useEffect(() => {
-    const token = localStorage.getItem('token');
-    if (token) {
-      loadStatsData(token);
-    } else {
-      setError('No authentication token found');
-      setLoading(false);
-    }
-  }, [loadStatsData]);
-
-  const loadStatsData = async (token) => {
+  // Move loadStatsData to useCallback to fix hoisting issue
+  const loadStatsData = useCallback(async (token) => {
     try {
       setLoading(true);
       setError(null);
@@ -98,7 +89,17 @@ const StatsPage = () => {
       setError(`Failed to load data: ${err.response?.data?.message || err.message}`);
       setLoading(false);
     }
-  };
+  }, []);
+
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+    if (token) {
+      loadStatsData(token);
+    } else {
+      setError('No authentication token found');
+      setLoading(false);
+    }
+  }, [loadStatsData]);
 
   const processStatsData = (invoices, clients) => {
     // Revenue chart data (last 6 months)
@@ -115,13 +116,10 @@ const StatsPage = () => {
     // Client growth chart
     const clientGrowthChart = generateClientGrowthChart(clients);
 
-
     const monthlyStats = generateMonthlyStats(invoices);
-
 
     const topClients = generateTopClientsData(invoices, clients);
 
- 
     const paymentMethods = [
       { name: 'Credit Card', value: 45, color: '#3B82F6' },
       { name: 'Bank Transfer', value: 30, color: '#10B981' },
