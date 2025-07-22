@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "npm ci && npm run build"
+}
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.3.0",
