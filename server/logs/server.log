@@ -1,0 +1,921 @@
+2025-07-02T02:49:31.264Z INFO: Test message
+2025-07-02T02:49:31.267Z INFO: INVOICE: Invoice created
+2025-07-02T02:50:32.633Z INFO: Test message
+2025-07-02T02:50:32.636Z INFO: INVOICE: Invoice created
+2025-07-02T02:50:32.637Z INFO: Client: client created
+2025-07-02T02:50:32.637Z INFO: Auth: Authorization successs
+2025-07-02T02:52:13.935Z INFO: Test message
+2025-07-02T02:52:13.939Z INFO: INVOICE: Invoice created
+2025-07-02T02:52:13.939Z INFO: Client: client created
+2025-07-02T02:52:13.940Z INFO: Auth: Authorization successs
+2025-07-02T02:52:20.871Z INFO: Test message
+2025-07-02T02:52:20.874Z INFO: Client: client created
+2025-07-02T02:52:20.874Z INFO: Auth: Authorization successs
+2025-07-02T02:53:16.366Z ERROR: uncaughtException: logger.info is not a function
+TypeError: logger.info is not a function
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js:30:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+2025-07-02T02:53:44.521Z INFO: Test message
+2025-07-02T02:53:44.523Z INFO: Client: client created
+2025-07-02T02:53:44.524Z INFO: Auth: Authorization successs
+2025-07-02T02:54:27.490Z INFO: Test message
+2025-07-02T02:54:27.492Z INFO: Client: client created
+2025-07-02T02:54:27.492Z INFO: Auth: Authorization successs
+2025-07-02T02:54:35.418Z INFO: INVOICE: Invoice Created
+2025-07-02T02:57:01.723Z INFO: Test message
+2025-07-02T02:57:01.725Z INFO: Client: client created
+2025-07-02T02:57:01.726Z INFO: Auth: Authorization successs
+2025-07-02T02:57:22.061Z INFO: Auth: Authorization successs
+2025-07-02T03:01:43.428Z INFO: Auth: Fetched Profile Successfully
+2025-07-02T03:13:50.694Z ERROR: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Route.<computed> [as get] (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\lib\route.js:228:15)
+    at Router.<computed> [as get] (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:448:19)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\invoiceRoutes.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+2025-07-02T03:18:07.017Z ERROR: uncaughtException: getClientById is not defined
+ReferenceError: getClientById is not defined
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:9:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js:5:22)
+2025-07-02T03:30:00.321Z INFO: [CRON] Ran daily reminder check. Found 0 overdue invoices.
+2025-07-02T04:28:27.841Z ERROR: uncaughtException: Cannot find module '@sendgrid/mail'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\emailservice.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\invoiceController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\invoiceRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+Error: Cannot find module '@sendgrid/mail'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\emailservice.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\invoiceController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\invoiceRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\emailservice.js:1:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-07-02T04:29:17.209Z ERROR: uncaughtException: Cannot find module 'pdfkit'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\pdfservices.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\invoiceController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\invoiceRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+Error: Cannot find module 'pdfkit'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\pdfservices.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\invoiceController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\invoiceRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\pdfservices.js:1:21)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-07-02T04:29:29.083Z ERROR: uncaughtException: Cannot find module 'pdfkit'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\pdfservices.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\invoiceController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\invoiceRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+Error: Cannot find module 'pdfkit'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\pdfservices.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\invoiceController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\invoiceRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\pdfservices.js:1:21)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-07-02T04:29:57.494Z ERROR: uncaughtException: Cannot find module 'node-cron'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\cronservice.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+Error: Cannot find module 'node-cron'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\cronservice.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\cronservice.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-07-02T04:32:05.364Z ERROR: unhandledRejection: getStream.buffer is not a function
+TypeError: getStream.buffer is not a function
+    at C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\services\pdfservices.js:22:28
+    at asyncUtilWrap (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\express-async-handler\index.js:3:20)
+    at C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\invoiceController.js:72:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-02T04:46:57.503Z INFO: INVOICE: Invoice 6864b9bfd8d10db48ac092a2 created and emailed to diwakarlewis@gmail.com
+2025-07-02T05:29:21.760Z ERROR: uncaughtException: Cannot find module 'stripe'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\paymentController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\paymentRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+Error: Cannot find module 'stripe'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\paymentController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\paymentRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\paymentController.js:5:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-07-02T05:29:24.300Z ERROR: uncaughtException: Cannot find module 'stripe'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\paymentController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\paymentRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+Error: Cannot find module 'stripe'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\paymentController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\paymentRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\paymentController.js:5:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-07-02T05:40:18.954Z ERROR: uncaughtException: Unexpected identifier 'description'
+C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\paymentController.js:46
+                    description: item.description 
+                    ^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'description'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\paymentRoutes.js:2:42)
+2025-07-03T05:44:35.889Z ERROR: uncaughtException: Unexpected token ':'
+C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\middleware\authmiddleware.js:16
+    issuer: https://${domain}/,
+                 ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:3:14)
+2025-07-03T06:55:32.330Z INFO: Auth: Fetched Profile Successfully
+2025-07-03T06:57:23.274Z INFO: Client: Client Created Successfully
+2025-07-03T06:58:25.650Z INFO: Client: Client Created Successfully
+2025-07-03T07:03:31.682Z INFO: INVOICE: Invoice 68662b41b1216de047852cfb created and emailed to diwakarlewis@gmail.com
+2025-07-03T07:08:54.575Z INFO: Auth: Fetched Profile Successfully
+2025-07-03T08:28:38.164Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-03T08:39:24.547Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-03T08:39:28.421Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-03T08:40:20.752Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-03T08:40:29.028Z ERROR: uncaughtException: issuer is not defined
+ReferenceError: issuer is not defined
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\middleware\authmiddleware.js:21:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:3:14)
+2025-07-03T08:41:56.915Z ERROR: uncaughtException: issuer is not defined
+ReferenceError: issuer is not defined
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\middleware\authmiddleware.js:21:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:3:14)
+2025-07-03T08:43:01.582Z ERROR: uncaughtException: issuer is not defined
+ReferenceError: issuer is not defined
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\middleware\authmiddleware.js:21:13)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:3:14)
+2025-07-05T08:58:58.501Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-05T08:59:30.816Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-05T09:02:44.394Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-05T09:07:44.722Z ERROR: uncaughtException: Cannot read properties of undefined (reading 'audience')
+TypeError: Cannot read properties of undefined (reading 'audience')
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\middleware\authmiddleware.js:21:24)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:3:14)
+2025-07-05T09:08:30.521Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-05T10:03:40.646Z INFO: Auth: Fetched Profile Successfully
+2025-07-05T10:05:40.441Z INFO: Client: Client Created Successfully
+2025-07-05T10:08:59.656Z INFO: INVOICE: Invoice 6868f9b9671801cf879cb380 created and emailed to diwakarlewis@gmail.com
+2025-07-05T10:56:53.727Z INFO: Auth: Fetched Profile Successfully
+2025-07-05T11:00:38.196Z INFO: Auth: Fetched Profile Successfully
+2025-07-05T11:03:45.310Z INFO: Auth: Fetched Profile Successfully
+2025-07-05T11:12:07.857Z INFO: Auth: Fetched Profile Successfully
+2025-07-05T11:21:34.111Z INFO: Auth: Fetched Profile Successfully
+2025-07-05T11:50:52.096Z INFO: Auth: Fetched Profile Successfully
+2025-07-05T11:56:00.559Z INFO: Auth: Fetched Profile Successfully
+2025-07-05T11:59:05.751Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T16:49:11.530Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T16:50:18.964Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T16:50:21.939Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T16:51:35.327Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T16:53:19.205Z INFO: Client: Client Created Successfully
+2025-07-14T16:57:21.253Z INFO: INVOICE: Invoice 687536ee84d1d52cf43b6319 created and emailed to diwakarlewis@gmail.com
+2025-07-14T17:15:51.811Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:17:58.129Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:35:42.079Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:39:52.834Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:40:03.366Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:40:30.858Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:41:01.876Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:41:10.704Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:42:07.875Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:43:00.107Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:43:46.370Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:43:58.426Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:44:43.981Z INFO: Auth: Fetched Profile Successfully
+2025-07-14T17:45:37.080Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T06:49:13.360Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T06:50:17.876Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T06:50:18.154Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T07:12:56.454Z INFO: Client: Client Created Successfully
+2025-07-15T07:13:15.367Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T07:13:15.739Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T09:38:06.614Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T09:38:15.093Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T09:38:20.422Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T09:39:09.690Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T09:48:48.803Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T09:54:11.297Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T09:59:21.386Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:06:40.544Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:06:40.877Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:08:39.322Z INFO: Client: Client Created Successfully
+2025-07-15T10:08:48.026Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:08:48.352Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:17:15.465Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:17:15.839Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:19:08.227Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:19:08.561Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:21:57.035Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:26:22.011Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:31:02.726Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:41:39.992Z INFO: INVOICE: Invoice 687630633f26b343fcd8bb83 created and emailed to undefined
+2025-07-15T10:41:52.047Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:42:02.822Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:42:20.748Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:42:29.273Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:42:29.577Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:42:35.549Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:42:35.868Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:42:45.039Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:44:41.130Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:45:02.188Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:45:22.504Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:46:45.500Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:50:10.450Z INFO: INVOICE: Invoice 687632613f26b343fcd8bbbf created and emailed to undefined
+2025-07-15T10:50:29.161Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T10:55:32.721Z INFO: INVOICE: Invoice 687633a3a6fa73292adbe5bc created and emailed to undefined
+2025-07-15T11:03:53.488Z INFO: INVOICE: Invoice 68763596542f28f2ff2dd3ff created and emailed to diwakarlewis@gmail.com
+2025-07-15T11:04:12.968Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:05:30.560Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:08:50.996Z INFO: INVOICE: Invoice 687636c135414595a9ca8f35 created and emailed to diwakarlewis@gmail.com
+2025-07-15T11:10:14.889Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:11:41.459Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:11:46.544Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:12:42.646Z INFO: INVOICE: Invoice 687637a83b8ef953a3e62cfc created and emailed to diwakarlewis@gmail.com
+2025-07-15T11:13:53.627Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:15:19.694Z INFO: INVOICE: Invoice 68763846718be746cdeec0f0 created and emailed to diwakarlewis@gmail.com
+2025-07-15T11:15:51.479Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:15:56.498Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:18:45.506Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:18:50.926Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:25:59.958Z INFO: INVOICE: Invoice 68763ac7ace7eef67457c7a4 created and emailed to undefined
+2025-07-15T11:26:40.714Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:26:45.012Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:29:03.830Z INFO: INVOICE: Invoice 68763b7fe58db814a5a988a6 created and emailed to undefined
+2025-07-15T11:30:26.668Z INFO: INVOICE: Invoice 68763bd28e2eb19b5522e7f1 created and emailed to undefined
+2025-07-15T11:31:47.760Z INFO: INVOICE: Invoice 68763c2350f73d5c399ea6de created and emailed to undefined
+2025-07-15T11:33:09.741Z INFO: INVOICE: Invoice 68763c742ce025af26abf67a created and emailed to undefined
+2025-07-15T11:35:36.387Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:35:47.228Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:35:47.537Z INFO: Auth: Fetched Profile Successfully
+2025-07-15T11:35:52.651Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T10:42:36.759Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T10:42:58.974Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T10:42:59.368Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T10:43:05.718Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:05:58.294Z INFO: INVOICE: Invoice 687787955a78393359f8effb created and emailed to undefined
+2025-07-16T11:06:08.187Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:06:08.496Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:07:20.540Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:07:20.838Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:11:38.010Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:15:15.131Z INFO: Client: Client Created Successfully
+2025-07-16T11:15:30.691Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:15:37.381Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:16:37.195Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:21:48.864Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:22:17.770Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:22:52.852Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:22:55.097Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:22:55.385Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:23:02.217Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:23:02.534Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:25:20.925Z INFO: Client: Client Created Successfully
+2025-07-16T11:25:49.506Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:25:49.783Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:25:54.041Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:26:34.221Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:26:47.604Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:27:58.052Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:28:20.750Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:31:05.154Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:31:20.646Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:33:42.172Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:34:21.510Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:34:21.834Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:36:16.411Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:40:23.728Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:41:06.352Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:51:20.116Z INFO: Client: Client Created Successfully
+2025-07-16T11:52:01.879Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:53:49.669Z INFO: Client: Client Created Successfully
+2025-07-16T11:58:45.567Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:58:56.992Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:58:57.286Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:59:28.602Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T11:59:28.886Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:11:50.980Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:16:02.299Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:26:05.438Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:26:41.658Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:29:44.922Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:38:02.723Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:38:09.948Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:38:10.225Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:38:15.316Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:38:15.616Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:41:42.537Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:43:13.317Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:44:32.806Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:44:33.106Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:44:36.713Z INFO: Auth: Fetched Profile Successfully
+2025-07-16T12:44:37.038Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T10:42:16.349Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T10:42:16.637Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T10:43:08.483Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T11:07:08.636Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T11:07:08.963Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T12:37:28.315Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T12:37:28.740Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T12:48:37.128Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T12:48:37.503Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T12:48:49.913Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T12:48:50.216Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T13:15:32.965Z INFO: Client: Client Created Successfully
+2025-07-17T13:15:37.829Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T13:15:38.132Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T16:35:55.270Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T16:36:22.473Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T16:36:22.821Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T16:37:00.753Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T16:37:01.069Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T16:37:13.696Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T16:37:14.024Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T17:09:33.726Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T17:11:30.734Z INFO: Auth: Fetched Profile Successfully
+2025-07-17T17:11:31.049Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T03:07:55.770Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T03:09:14.949Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T03:09:15.271Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T03:30:00.346Z WARN: [INVOICE] Reminder: Invoice #68649ef99e90e28556d98a23 is overdue
+2025-07-18T03:30:00.355Z WARN: [INVOICE] Reminder: Invoice #68649f6b730dbe36063325ad is overdue
+2025-07-18T03:30:00.357Z WARN: [INVOICE] Reminder: Invoice #6864b4324279f666a4e0cc4f is overdue
+2025-07-18T03:30:00.361Z WARN: [INVOICE] Reminder: Invoice #6864b5e9b39d61e03a3fdb25 is overdue
+2025-07-18T03:30:00.365Z WARN: [INVOICE] Reminder: Invoice #6864b644a428ed7c0371c4de is overdue
+2025-07-18T03:30:00.366Z WARN: [INVOICE] Reminder: Invoice #6864b65fd77152df940df882 is overdue
+2025-07-18T03:30:00.378Z WARN: [INVOICE] Reminder: Invoice #6864b6c9a8f26ffced2dc081 is overdue
+2025-07-18T03:30:00.379Z WARN: [INVOICE] Reminder: Invoice #6864b6d8a1d8337e30442ca1 is overdue
+2025-07-18T03:30:00.412Z WARN: [INVOICE] Reminder: Invoice #6864b6f56b05e8b696d90bbf is overdue
+2025-07-18T03:30:00.412Z WARN: [INVOICE] Reminder: Invoice #6864b76dd6cab9ffaf96c2df is overdue
+2025-07-18T03:30:00.413Z WARN: [INVOICE] Reminder: Invoice #6864b85ea1e564d3e6774353 is overdue
+2025-07-18T03:30:00.414Z WARN: [INVOICE] Reminder: Invoice #6864b8ebc60dd27016d6cfac is overdue
+2025-07-18T03:30:00.414Z WARN: [INVOICE] Reminder: Invoice #6864b9bfd8d10db48ac092a2 is overdue
+2025-07-18T03:30:00.414Z WARN: [INVOICE] Reminder: Invoice #687630633f26b343fcd8bb83 is overdue
+2025-07-18T03:30:00.415Z INFO: [CRON] Ran daily reminder check. Found 14 overdue invoices.
+2025-07-18T04:23:06.659Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:23:06.970Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:34:14.629Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:34:14.929Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:47:58.201Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:47:58.496Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:48:24.211Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:55:54.585Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:55:54.881Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:58:07.051Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T04:58:07.338Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:08:34.884Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:08:46.681Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:08:47.058Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:09:43.601Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:17:01.386Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:21:25.184Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:21:25.497Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:22:32.201Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:22:32.494Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:23:51.244Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:24:06.356Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:24:06.683Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:24:22.023Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:24:22.358Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:24:32.082Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:24:55.698Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:26:22.229Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:26:52.539Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:28:06.389Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:29:34.380Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:30:56.401Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:36:49.509Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:40:28.490Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:40:28.792Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:40:30.636Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:40:35.373Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:43:39.398Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:44:00.463Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:44:12.630Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:45:38.991Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:50:24.314Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:50:45.350Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:51:08.320Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:51:11.626Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:51:11.934Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:51:33.586Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:51:33.902Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:52:05.371Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:52:05.693Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:52:33.851Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:52:34.155Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:56:52.062Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T11:56:52.352Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T12:26:34.050Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T12:26:34.326Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T12:27:52.801Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T12:27:53.114Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T12:33:54.809Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T12:41:35.869Z INFO: Client: Client Created Successfully
+2025-07-18T12:43:20.916Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T12:43:21.208Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T12:54:30.104Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-18T12:54:42.729Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-18T12:55:11.619Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-18T12:55:36.281Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-18T13:02:34.874Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-18T13:02:50.100Z ERROR: uncaughtException: argument handler is required
+TypeError: argument handler is required
+    at Function.use (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:385:11)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\clientRoutes.js:5:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-18T13:03:38.027Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:03:41.356Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:03:41.666Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:04:30.553Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:12:09.333Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:12:09.633Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:13:32.528Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:13:32.820Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:45:53.326Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:46:25.134Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:46:25.472Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:48:38.491Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:50:04.681Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:51:52.851Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:51:53.148Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:54:35.302Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:55:32.928Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:55:33.234Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:55:35.165Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:55:35.536Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:55:54.297Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:55:54.654Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:55:58.811Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:55:59.116Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:56:06.858Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:56:07.225Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:59:13.392Z INFO: Auth: Fetched Profile Successfully
+2025-07-18T13:59:13.737Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T13:23:20.740Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T13:23:21.067Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T13:23:34.274Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T13:23:34.629Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T13:45:59.738Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T13:49:48.487Z INFO: Client: Client Created Successfully
+2025-07-20T13:57:08.493Z INFO: Client: Client Created Successfully
+2025-07-20T14:22:48.283Z INFO: Client: Client Created Successfully
+2025-07-20T14:28:23.135Z INFO: Client: Client Created Successfully
+2025-07-20T14:37:58.924Z INFO: Client: Client Created Successfully
+2025-07-20T14:38:16.702Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T14:38:51.519Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T14:42:19.549Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T14:42:19.859Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T14:45:46.892Z INFO: Client: Client Created Successfully
+2025-07-20T14:46:16.184Z INFO: Client: Client Created Successfully
+2025-07-20T14:46:28.585Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T14:50:08.905Z INFO: INVOICE: Invoice 687d021eba1b8df201830e53 created and emailed to rupeshkrishnaa123@gmail.com
+2025-07-20T15:00:05.347Z INFO: INVOICE: Invoice 687d0473f45d765e2e739a81 created and emailed to rupeshkrishnaa123@gmail.com
+2025-07-20T15:03:51.902Z INFO: INVOICE: Invoice 687d05557aa632b12216b581 created and emailed to rupeshkrishnaa123@gmail.com
+2025-07-20T15:06:41.973Z INFO: INVOICE: Invoice 687d060051c7169f819f8922 created and emailed to rupeshkrishnaa123@gmail.com
+2025-07-20T15:09:15.169Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:09:36.706Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:09:38.750Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:09:39.048Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:09:42.707Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:09:43.017Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:10:28.768Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:10:29.181Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:11:26.175Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:11:26.488Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:11:31.261Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:11:31.556Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:12:57.205Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:12:57.498Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:13:48.540Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:13:48.841Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:14:08.619Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:14:08.904Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:14:31.800Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:14:32.127Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:17:48.885Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:17:49.173Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:20:51.237Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:23:09.082Z INFO: INVOICE: Invoice 687d09da51c7169f819f8a1b created and emailed to rupeshkrishnaa123@gmail.com
+2025-07-20T15:47:33.442Z INFO: INVOICE: Invoice 687d0f923fc96e02a2895c02 created and emailed to diwakarlewis@gmail.com
+2025-07-20T15:50:39.461Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:50:39.782Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:50:54.816Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:50:55.139Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:50:59.202Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:50:59.523Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:51:04.970Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:51:05.277Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:51:33.994Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T15:52:44.948Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T16:03:36.648Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T16:03:36.992Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T16:06:01.423Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T16:06:01.740Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T16:06:36.219Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T16:06:36.527Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T16:07:54.165Z INFO: Client: Client Created Successfully
+2025-07-20T16:10:12.729Z INFO: Auth: Fetched Profile Successfully
+2025-07-20T16:10:13.067Z INFO: Auth: Fetched Profile Successfully
+2025-07-21T14:02:02.865Z INFO: Client: Client Created Successfully
+2025-07-21T14:02:34.435Z INFO: Auth: Fetched Profile Successfully
+2025-07-21T14:02:34.740Z INFO: Auth: Fetched Profile Successfully
+2025-07-21T14:02:45.705Z INFO: Auth: Fetched Profile Successfully
+2025-07-21T14:02:46.018Z INFO: Auth: Fetched Profile Successfully
+2025-07-21T14:05:09.356Z INFO: Client: Client Created Successfully
+2025-07-21T14:45:37.439Z INFO: Auth: Fetched Profile Successfully
+2025-07-21T14:47:55.550Z INFO: Auth: Fetched Profile Successfully
+2025-07-21T14:47:55.851Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T02:17:08.015Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T02:17:19.878Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T02:19:33.183Z ERROR: uncaughtException: Cannot find module 'bcryptjs'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\adminController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\adminRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+Error: Cannot find module 'bcryptjs'
+Require stack:
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\adminController.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\adminRoutes.js
+- C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\adminController.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-07-22T02:20:07.283Z ERROR: uncaughtException: argument handler must be a function
+TypeError: argument handler must be a function
+    at Route.<computed> [as get] (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\lib\route.js:228:15)
+    at Router.<computed> [as get] (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\router\index.js:448:19)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\adminRoutes.js:8:8)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+2025-07-22T02:43:08.419Z ERROR: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\node_modules\mongoose\lib\mongoose.js:610:13)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\models\adminUser.js:35:27)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+2025-07-22T03:30:00.367Z WARN: [INVOICE] Reminder: Invoice #68649ef99e90e28556d98a23 is overdue
+2025-07-22T03:30:00.373Z WARN: [INVOICE] Reminder: Invoice #68649f6b730dbe36063325ad is overdue
+2025-07-22T03:30:00.375Z WARN: [INVOICE] Reminder: Invoice #6864b4324279f666a4e0cc4f is overdue
+2025-07-22T03:30:00.377Z WARN: [INVOICE] Reminder: Invoice #6864b5e9b39d61e03a3fdb25 is overdue
+2025-07-22T03:30:00.381Z WARN: [INVOICE] Reminder: Invoice #6864b644a428ed7c0371c4de is overdue
+2025-07-22T03:30:00.383Z WARN: [INVOICE] Reminder: Invoice #6864b65fd77152df940df882 is overdue
+2025-07-22T03:30:00.385Z WARN: [INVOICE] Reminder: Invoice #6864b6c9a8f26ffced2dc081 is overdue
+2025-07-22T03:30:00.386Z WARN: [INVOICE] Reminder: Invoice #6864b6d8a1d8337e30442ca1 is overdue
+2025-07-22T03:30:00.387Z WARN: [INVOICE] Reminder: Invoice #6864b6f56b05e8b696d90bbf is overdue
+2025-07-22T03:30:00.390Z WARN: [INVOICE] Reminder: Invoice #6864b76dd6cab9ffaf96c2df is overdue
+2025-07-22T03:30:00.392Z WARN: [INVOICE] Reminder: Invoice #6864b85ea1e564d3e6774353 is overdue
+2025-07-22T03:30:00.393Z WARN: [INVOICE] Reminder: Invoice #6864b8ebc60dd27016d6cfac is overdue
+2025-07-22T03:30:00.394Z WARN: [INVOICE] Reminder: Invoice #6864b9bfd8d10db48ac092a2 is overdue
+2025-07-22T03:30:00.395Z WARN: [INVOICE] Reminder: Invoice #687630633f26b343fcd8bb83 is overdue
+2025-07-22T03:30:00.395Z WARN: [INVOICE] Reminder: Invoice #687632613f26b343fcd8bbbf is overdue
+2025-07-22T03:30:00.396Z WARN: [INVOICE] Reminder: Invoice #687633a3a6fa73292adbe5bc is overdue
+2025-07-22T03:30:00.397Z WARN: [INVOICE] Reminder: Invoice #68763596542f28f2ff2dd3ff is overdue
+2025-07-22T03:30:00.398Z WARN: [INVOICE] Reminder: Invoice #687637a83b8ef953a3e62cfc is overdue
+2025-07-22T03:30:00.399Z WARN: [INVOICE] Reminder: Invoice #68763ac7ace7eef67457c7a4 is overdue
+2025-07-22T03:30:00.399Z WARN: [INVOICE] Reminder: Invoice #68763b7fe58db814a5a988a6 is overdue
+2025-07-22T03:30:00.400Z WARN: [INVOICE] Reminder: Invoice #68763bd28e2eb19b5522e7f1 is overdue
+2025-07-22T03:30:00.400Z WARN: [INVOICE] Reminder: Invoice #68763c2350f73d5c399ea6de is overdue
+2025-07-22T03:30:00.401Z WARN: [INVOICE] Reminder: Invoice #687d021eba1b8df201830e53 is overdue
+2025-07-22T03:30:00.401Z WARN: [INVOICE] Reminder: Invoice #687d0473f45d765e2e739a81 is overdue
+2025-07-22T03:30:00.402Z WARN: [INVOICE] Reminder: Invoice #687d05557aa632b12216b581 is overdue
+2025-07-22T03:30:00.402Z INFO: [CRON] Ran daily reminder check. Found 25 overdue invoices.
+2025-07-22T03:59:53.125Z ERROR: uncaughtException: missing ) after argument list
+C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\adminController.js:8
+    return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: '60d' },   algorithm: 'HS256');
+                                                                            ^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1515:18)
+    at Module._compile (node:internal/modules/cjs/loader:1537:20)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\adminRoutes.js:2:42)
+2025-07-22T05:33:17.388Z ERROR: uncaughtException: updatedAdminProfile is not defined
+ReferenceError: updatedAdminProfile is not defined
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\controllers\adminController.js:228:53)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:138:16)
+    at Object.<anonymous> (C:\Users\DIWAKAR\Documents\Reactjs\InvoicelyPro\server\routes\adminRoutes.js:2:42)
+2025-07-22T06:46:48.103Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T06:46:48.574Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T06:47:03.833Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T06:47:04.118Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T06:47:10.638Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T06:47:10.951Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T06:48:00.043Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T06:48:00.344Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T07:14:05.336Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T07:14:05.683Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T07:15:15.312Z INFO: Auth: Fetched Profile Successfully
+2025-07-22T07:15:15.599Z INFO: Auth: Fetched Profile Successfully

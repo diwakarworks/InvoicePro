@@ -1,0 +1,42 @@
+{
+  "name": "invoicelypro-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "invoicing",
+    "saas",
+    "express",
+    "mongodb",
+    "auth0",
+    "stripe"
+  ],
+  "author": "Diwakar",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "express-jwt": "^8.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.2.0",
+    "mongoose": "^8.16.1",
+    "node-cron": "^4.2.0",
+    "pdfkit": "^0.17.1",
+    "stripe": "^18.3.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
