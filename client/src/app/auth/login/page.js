@@ -41,7 +41,7 @@ export default function LoginPage() {
     };
 
     handleRedirectCallback();
-  }, []);
+  }, [API_URL, router]);
 
   const login = async () => {
     try {
