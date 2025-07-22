@@ -4,6 +4,9 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { getAuth0Client } from '@/lib/auth0';
 
+
+export const dynamic = 'force-dynamic';
+
 export default function CallbackPage() {
   const router = useRouter();
   const [error, setError] = useState(null);
