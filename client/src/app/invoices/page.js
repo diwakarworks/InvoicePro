@@ -42,7 +42,7 @@ const InvoiceList = () => {
         };
 
         fetchInvoices();
-    }, []);
+    }, [API_URL]);
 
 
     const filteredInvoices = invoices.filter(invoice => {
