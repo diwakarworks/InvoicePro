@@ -64,8 +64,8 @@ const createCheckoutSession = asyncHandler(async (req, res) => {
             quantity:  1,
         })),
         mode: 'payment',
-        success_url: 'http://localhost:3000/success',
-        cancel_url: 'http://localhost:3000/failure',
+        success_url: 'https://invoice-pro-lac.vercel.app/success',
+        cancel_url: 'https://invoice-pro-lac.vercel.app/failure',
         metadata: {
             invoiceId: invoice._id.toString(),
         },
