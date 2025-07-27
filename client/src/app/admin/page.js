@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { Eye, EyeOff, Mail, Lock, Shield, AlertCircle } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
+const API_URL = process.env.NEXT_PUBLIC_BACKEND_URL
+
 const AdminLoginPage = () => {
   const [formData, setFormData] = useState({
     email: '',
@@ -66,7 +68,7 @@ const AdminLoginPage = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/admin/login', {
+      const response = await fetch(`${API_URL}/api/admin/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
