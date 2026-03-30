@@ -49,7 +49,7 @@ A full-stack SaaS platform for creating, managing, and sending invoices with Str
 ## Screenshots
 
 ![Dashboard](./screenshots/dashboard.png)
-![Invoice View](./screenshots/invoice.png)
+![Invoice View](./screenshots/admin-invoice.png)
 
 ---
 
