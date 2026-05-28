@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+# env files
+.env
+.env.local
+# build files
+.next/
+dist/s
+build/
+# logs
+*.log
+# OS
+.DS_Store  is my .gitignore is correct file structure and the code is crct in gitignore
