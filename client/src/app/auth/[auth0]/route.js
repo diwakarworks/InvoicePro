@@ -1,3 +1,3 @@
-import { handlers } from '@auth0/nextjs-auth0';
+import { handleAuth } from '@auth0/nextjs-auth0';
 
-export const { GET, POST } = handlers;
+export { handleAuth as GET, handleAuth as POST };
