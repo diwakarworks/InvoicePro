@@ -5,7 +5,7 @@ const auth = require('../middleware/authmiddleware');
 
 router.post('/webhook', webhook);
 router.get('/',auth,getPayments)
-router.post('/checkout-session',auth,createCheckoutSession)
+router.post('/checkout-session',createCheckoutSession)
 module.exports = router;
 
 

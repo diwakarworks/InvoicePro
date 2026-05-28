@@ -919,3 +919,29 @@ ReferenceError: updatedAdminProfile is not defined
 2025-07-22T07:14:05.683Z INFO: Auth: Fetched Profile Successfully
 2025-07-22T07:15:15.312Z INFO: Auth: Fetched Profile Successfully
 2025-07-22T07:15:15.599Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:05:26.181Z ERROR: uncaughtException: Neither apiKey nor config.authenticator provided
+Error: Neither apiKey nor config.authenticator provided
+    at Stripe._setAuthenticator (/Users/diwakar/Documents/Reactjs/InvoicePro/server/node_modules/stripe/cjs/stripe.core.js:155:23)
+    at new Stripe (/Users/diwakar/Documents/Reactjs/InvoicePro/server/node_modules/stripe/cjs/stripe.core.js:93:14)
+    at Stripe (/Users/diwakar/Documents/Reactjs/InvoicePro/server/node_modules/stripe/cjs/stripe.core.js:49:20)
+    at Object.<anonymous> (/Users/diwakar/Documents/Reactjs/InvoicePro/server/controllers/paymentController.js:7:16)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+2026-05-12T08:42:33.003Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:42:33.292Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:42:39.422Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:42:39.725Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:43:41.800Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:43:42.084Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:44:06.744Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:44:07.070Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:44:52.932Z INFO: INVOICE: Invoice 6a02e8830c86151a4453a8fc created and emailed to diwakarlewis@gmail.com
+2026-05-12T08:45:09.840Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T08:45:10.152Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T09:35:27.648Z INFO: Auth: Fetched Profile Successfully
+2026-05-12T09:35:27.924Z INFO: Auth: Fetched Profile Successfully
+2026-05-28T11:31:08.090Z INFO: Auth: Fetched Profile Successfully
