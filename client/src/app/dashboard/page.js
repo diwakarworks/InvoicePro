@@ -25,12 +25,9 @@ const processPaymentWebhook = async (invoiceId, sessionId, token) => {
     `${API_URL}/api/payments/webhook`,
     { invoiceId, status: 'paid', amount: invoiceRes.data.total, sessionId },
     {
-      headers: {
-        Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
-      },
     }
   );
+  console.log(`Processed payment webhook for invoice ${invoiceId} with session ${sessionId}`, invoiceRes.data);
 };
 
 // ─── StatCard ─────────────────────────────────────────────────────────────────
