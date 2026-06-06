@@ -5,23 +5,25 @@ import { CheckCircleIcon } from "@heroicons/react/24/solid";
 const API_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export default function PaymentSuccess() {
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const invoiceId = params.get('invoiceId');
+ useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+  const invoiceId = params.get('invoiceId');
+  const token = localStorage.getItem('token');
 
-    if (invoiceId) {
-      fetch(`${API_URL}/api/invoices/${invoiceId}`)
-        .then(res => res.json())
-        .then(invoice => {
-          fetch(`${API_URL}/api/payments/webhook`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ invoiceId, status: 'paid', amount: invoice.total }),
-          });
+  if (invoiceId) {
+    fetch(`${API_URL}/api/invoices/${invoiceId}`, {
+      headers: { Authorization: `Bearer ${token}` },
+    })
+      .then(res => res.json())
+      .then(invoice => {
+        fetch(`${API_URL}/api/payments/webhook`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ invoiceId, status: 'paid', amount: invoice.total }),
         });
-    }
-  }, []);
-
+      });
+  }
+}, []);
   return (
     <div className="min-h-screen flex items-center justify-center bg-green-50">
       <div className="bg-white -mt-20 p-8 rounded-xl shadow-md text-center space-y-4">
